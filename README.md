@@ -1,8 +1,6 @@
-# JS-DAW-practicas-DavidParedes
-Desarrollo Web en Entorno Cliente
+# David Paredes Rodríguez
+Programador Full Start Developer
 
-
-David Paredes Rodriguez
 
 # Estudios académicos
 
