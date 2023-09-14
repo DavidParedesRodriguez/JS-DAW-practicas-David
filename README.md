@@ -4,3 +4,7 @@ Programador Full Start Developer ![Badge oracle](https://img.shields.io/badge/ma
 
 # Estudios académicos
 
+* Bachillerato Científico
+* Técnico Superior en Desarrollo de Aplicaciones Multiplatarforma
+* Técnico Superior en Desarrollo de Aplicaciones Web
+
