@@ -1,12 +1,24 @@
 # David Paredes Rodríguez
-Programador Full Start Developer ![Badge oracle](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
+Programador Full Start Developer.
 
+# Aptitudes
+
+Soy una persona responsable y formal con una gran
+motivación para integrarme en un equipo de trabajo el cual
+puede aportarme formacion y conocimientos para tener
+mayor experiencia fuera de mi entorno académico.
 
 # Estudios académicos
 
 * Bachillerato Científico
 * Técnico Superior en Desarrollo de Aplicaciones Multiplatarforma
 * Técnico Superior en Desarrollo de Aplicaciones Web
+
+# Proyecto: ARCADE CONTROL
+
+El proyecto "ARCADE CONTROL" consiste en un videojuego multiplataforma de conducir un coche en un circuito basado en el circuito de Bombelo superando la marca de tiempo establecida en la vuelta anterior.
+
+![Logotipo](C:\Users\David Paredes 2002\JS-DAW-practicas-David\contraPortada2.PNG)
 
 
 ## 🌐 Socials:
@@ -19,7 +31,5 @@ Programador Full Start Developer ![Badge oracle](https://img.shields.io/badge/ma
 ![](https://github-readme-streak-stats.herokuapp.com/?user=DavidParedesRodriguez&theme=city_light&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=DavidParedesRodriguez&theme=city_light&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
----
-[![](https://visitcount.itsvg.in/api?id=DavidParedesRodriguez&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
