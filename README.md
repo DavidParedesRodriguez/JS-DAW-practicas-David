@@ -18,7 +18,7 @@ mayor experiencia fuera de mi entorno académico.
 
 El proyecto "ARCADE CONTROL" consiste en un videojuego multiplataforma de conducir un coche en un circuito basado en el circuito de Bombelo superando la marca de tiempo establecida en la vuelta anterior.
 
-![Logotipo](C:\Users\David Paredes 2002\JS-DAW-practicas-David\contraPortada2.PNG)
+<img src = "C:\Users\David Paredes 2002\JS-DAW-practicas-David\contraPortada2.PNG" alt = "imagen circuito">
 
 
 ## 🌐 Socials:
