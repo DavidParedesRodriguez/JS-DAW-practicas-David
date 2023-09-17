@@ -18,7 +18,7 @@ mayor experiencia fuera de mi entorno académico.
 
 El proyecto "ARCADE CONTROL", programado através de Unity y lenguaje de programación C#, consiste en un videojuego multiplataforma de conducir un coche en un circuito basado en el circuito de Bombelo superando la marca de tiempo establecida en la vuelta anterior.
 
-![circuito](contraPortada2.PNG)
+![circuito](https://static.skillshare.com/uploads/video/thumbnails/8edc836d76cfee516080a7f742bf6a5c/original)
 
 
 ## 🌐 Socials:
