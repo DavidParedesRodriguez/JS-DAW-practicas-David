@@ -16,9 +16,9 @@ mayor experiencia fuera de mi entorno académico.
 
 # Proyecto: ARCADE CONTROL
 
-El proyecto "ARCADE CONTROL" consiste en un videojuego multiplataforma de conducir un coche en un circuito basado en el circuito de Bombelo superando la marca de tiempo establecida en la vuelta anterior.
+El proyecto "ARCADE CONTROL", programado através de Unity y lenguaje de programación C#, consiste en un videojuego multiplataforma de conducir un coche en un circuito basado en el circuito de Bombelo superando la marca de tiempo establecida en la vuelta anterior.
 
-!(C:\Users\David Paredes 2002\JS-DAW-practicas-David)
+![circuito](c:\Users\David Paredes 2002\Desktop\MisCosas\2ºDAM\Ingles\Folleto imprimir\contraPortada2.PNG)
 
 
 ## 🌐 Socials:
