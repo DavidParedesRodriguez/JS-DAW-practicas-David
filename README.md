@@ -33,4 +33,3 @@ El proyecto "ARCADE CONTROL", programado através de Unity y lenguaje de program
 * Inglés: B1
 
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
