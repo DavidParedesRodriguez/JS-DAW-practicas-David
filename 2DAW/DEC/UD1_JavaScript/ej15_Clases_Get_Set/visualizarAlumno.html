@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumno de Daw</title>
+    <script src="claseAlumnoDaw.js"></script>
+  </head>
+  <body>
+    <script>
+      var alumno1 = new AlumnoDaw();
+
+      alumno1.setNombre("David");
+      alumno1.setApellido("Paredes Rodríguez");
+      alumno1.setEmail("davidparedesrodriguez@gmail.com");
+      alumno1.setEdad(21);
+
+      document.write(alumno1.getNombre());
+      document.write("<br/>"+alumno1.getApellido());
+      document.write("<br/>"+alumno1.getEmail());
+      document.write("<br/>"+alumno1.getEdad());
+    </script>
+  </body>
+</html>

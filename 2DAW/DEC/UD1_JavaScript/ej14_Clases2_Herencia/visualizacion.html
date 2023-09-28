@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herencia</title>
+    <script src="clases.js"></script>
+  </head>
+  <body>
+    <script>
+      var alumno1 = new AlumnoDaw("David", "a@gmail.com", "1234");
+      document.write(alumno1.saludo());
+      document.write("<br/>"+alumno1.login("a@gmail.com","1234"));
+      document.write("<br/>"+alumno1.login("b@gmail.com","1234"));
+
+      var alumno2 = new AlumnoASIR("Paco","paco@gmail.com",123);
+      document.write("<br/><br/>"+alumno2.saludo());
+      document.write("<br/>"+alumno2.login("a@gmail.com","1234"));
+      document.write("<br/>"+alumno2.login("paco@gmail.com",123));
+    </script>
+  </body>
+</html>
