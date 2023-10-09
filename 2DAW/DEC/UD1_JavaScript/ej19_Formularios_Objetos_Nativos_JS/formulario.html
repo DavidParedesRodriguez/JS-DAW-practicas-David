@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Objetos Nativos</title>
+    <script src="funciones.js"></script>
+  </head>
+  <body>
+    <p>1. Diseña un programa con JavaScript que, a partir de una cadena de texto introducida mediante un campo de texto, haga las conversiones.</p>
+    <br>
+    <label for="introducirTexto">Introduce una cadena de texto: </label>
+    <input type="text" id="introducirTexto" />
+    <br /><br />
+    <button onclick="convertiTexto()">Convierte la cadena</button>
+    <br /><br />
+    <label for="aLaInversa">A LA INVERSA: </label>
+    <input type="text" id="aLaInversa" readonly />
+    <br />
+    <label for="mayusacula">EN MAYUSCULAS: </label>
+    <input type="text" id="mayusacula" readonly />
+    <br />
+    <laber for="repetida">REPETIDA: </laber>
+    <input type="text" id="repetida" readonly />
+    <br />
+    <label for="inversaMayuscula">INVERTIDA EN MAYUSCULA: </label>
+    <input type="text" id="inversaMayuscula" readonly />
+
+    <br /><br />
+
+    <p>
+      2. Diseña un programa con JavaScript que pregunte al usuario su fecha de
+      nacimiento (en formato *YYYY/MM/*DD)<br> y calcule cuántos días han
+      transcurrido desde su nacimiento hasta la actualidad.
+    </p>
+    <br />
+
+    <label for="diaCumple">¿Qué día naciste?YYYY/MM/DD</label>
+    <input type="text" id="diaCumple" placeholder="YYYY/MM/DD">
+    <br>
+    <button onclick="calcularDias()">Calcular dias</button>
+
+  </body>
+</html>
