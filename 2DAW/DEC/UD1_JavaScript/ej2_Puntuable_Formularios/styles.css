@@ -1,0 +1,51 @@
+.titulo_principal {
+  text-align: center;
+  font-size: 40px;
+}
+
+
+  .btn {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+  }
+
+  .btn_saludar {
+    background-color: #007bff;
+}
+
+.btn_contadorA{
+    background-color: brown;
+}
+
+.btn_coloFondo{
+    background-color: chocolate;
+}
+
+.btn_botonColores{
+    background-color: darkcyan;
+}
+
+.btn_botonRojo{
+    background-color: red;
+}
+
+.btn_botonAzul{
+    background-color: blue;
+}
+
+.btn_botonVerde{
+    background-color:green;
+}
+
+#miDiv {
+    width: 100%;
+    height: 30px;
+   
+  }
+
+  .btn_botonNumMayor{
+    background-color:tomato;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="funciones.js"></script>
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="titulo_principal">Formulario</h1>
+    </div>
+
+    <!--1.Boton saludar-->
+    <div>
+      <p>
+        1. Escribir un programa en JavaScript que pregunte al usuario por su
+        nombre y le salude, mediante una ventana emergente, con el mensaje “Hola
+        nombreUsuario”.
+      </p>
+
+      <button class="btn btn_saludar" id="saludarBoton">Saludar</button>
+    </div>
+
+    <!--2.Boton cadena de texto-->
+    <div>
+      <p>
+        2. Escribe un programa en JavaScript que pida al usuario que introduzca
+        una cadena de texto. Mediante una ventana emergente, el programa
+        mostrará cuántas letras ‘a’ hay en la cadena de texto introducida.
+      </p>
+
+      <button class="btn btn_contadorA" id="contadorLetraA">Contador</button>
+    </div>
+
+    <!--4.Cambiar fondo color-->
+    <div>
+      <p>
+        4. Escribe un programa en JavaScript que pregunte al usuario qué color
+        de fondo prefiere. El usuario responderá ‘R’ para rojo, ‘V‘ para verde o
+        ‘A’ para azul. Una vez respondido, el fondo del documento cambiará al
+        color escogido.
+      </p>
+
+      <button class="btn btn_coloFondo" id="cambiarFondo">Fondo Color</button>
+    </div>
+
+    <!--4.Cambiar fondo color-->
+    <div>
+      <p>
+        5. Escribe un programa en JavaScript que, a partir de tres botones como
+        los de la imagen, cambie el color de fondo según el botón pulsado.
+        Deberéis implementar el código mediante una función a la que se le pase
+        el color escogido como parámetro de entrada.
+      </p>
+
+      <button class="btn btn_botonRojo" onclick="cambiarFondo('red')">
+        Rojo
+      </button>
+      <button class="btn btn_botonAzul" onclick="cambiarFondo('blue')">
+        Azul
+      </button>
+      <button class="btn btn_botonVerde" onclick="cambiarFondo('green')">
+        Verde
+      </button>
+    </div>
+
+    <!--5.Cambiar fondo div-->
+    <div>
+      <p>
+        6. Escribe un programa en JavaScript que contenga un elemento div . Al
+        pasar el ratón por encima de dicho elemento, deberá cambiar su color de
+        fondo (solamente el del div) a cualquier color que queráis.
+      </p>
+
+      <div
+        id="miDiv"
+        onmouseover="cambiarColorFondoDiv(true)"
+        onmouseout="cambiarColorFondoDiv(false)"
+      ></div>
+    </div>
+
+    <!--6.Formulario-->
+    <div>
+      <p>
+        8.Diseña un programa en JavaScript que permita al usuario introducir
+        tres valores numéricos en un pequeño formulario. Al enviar el
+        formulario, el programa informará, mediante ventana emergente, de cuál
+        de los tres números introducidos es el mayor. Nota: el programa nunca
+        seleccionará el número mayor si alguno de los campos está en blanco o el
+        valor que contiene no es numérico
+      </p>
+
+      
+
+      <form id="numeroForm">
+        <label for="numero1">Número 1:</label>
+        <input type="text" id="numero1" name="numero1" required>
+        <br><br>
+    
+        <label for="numero2">Número 2:</label>
+        <input type="text" id="numero2" name="numero2" required>
+        <br><br>
+    
+        <label for="numero3">Número 3:</label>
+        <input type="text" id="numero3" name="numero3" required>
+        <br><br>
+    
+        <input class ="btn btn_botonNumMayor" type="button" value="Calcular Mayor" onclick="calcularMayor()">
+    </form>
+    </div>
+
+    <script>
+      document
+        .getElementById("saludarBoton")
+        .addEventListener("click", saludar);
+
+      document
+        .getElementById("contadorLetraA")
+        .addEventListener("click", contadorAminusculas);
+
+      document
+        .getElementById("cambiarFondo")
+        .addEventListener("click", cambiarFondoColor);
+
+      document
+        .getElementById("abrirVentana")
+        .addEventListener("click", abrirVentanaColores);
+
+      function cambiarFondo(color) {
+        document.body.style.backgroundColor = color;
+      }
+
+        
+    </script>
+  </body>
+</html>
