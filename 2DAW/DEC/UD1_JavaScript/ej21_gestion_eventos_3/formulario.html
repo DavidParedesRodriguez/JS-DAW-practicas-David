@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <h1>Formulario</h1>
+   
+    <label for="introducirEmail">Email: </label>
+    <input type="text" id="introducirEmail" onblur="validarEmail()"/>
+    <div id="errorEmail" class="error"></div>
+    <br><br>
+    <label for="introducirPassword">Password: </label>
+    <input type="text" id="introducirPassword" onblur="validarPassword()"/>
+    <div id="errorPassword" class="error"></div>
+    <br><br>
+    <button type="submit">Enviar</button>
+</body>
+</html>
