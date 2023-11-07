@@ -1,7 +1,7 @@
 #map {
    
     height: 50vh; 
-    width: 30vw; 
+    width: 50vw; 
     position: absolute; 
     top: 35%; 
     left: 50%; 
@@ -12,6 +12,7 @@
 
 @media (max-width: 768px) {
     #map {
-        height: 70vh; /* Cambia la altura en pantallas más pequeñas */
+        height: 50vh; /* Cambia la altura en pantallas más pequeñas */
+        width: 80vw; 
     }
 }
