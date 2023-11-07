@@ -1,0 +1,17 @@
+#map {
+   
+    height: 50vh; 
+    width: 30vw; 
+    position: absolute; 
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: 2px solid #ccc; /* Agrega un pequeño borde */
+    border-radius: 20px; /* Hace que los bordes sean redondos */
+}
+
+@media (max-width: 768px) {
+    #map {
+        height: 70vh; /* Cambia la altura en pantallas más pequeñas */
+    }
+}
