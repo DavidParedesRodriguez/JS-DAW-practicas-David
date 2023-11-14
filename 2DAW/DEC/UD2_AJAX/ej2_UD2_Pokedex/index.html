@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 2px solid #dddddd;
+            text-align: center;
+            padding: 4px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Imagen</th>
+            </tr>
+        </thead>
+        <tbody id="pokedex"></tbody>
+    </table>
+
+    <script>
+        const pokedexBody = document.getElementById('pokedex');
+
+        // Función para obtener la lista de Pokémon
+        function fetchPokemonList(apiUrl) {
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    // Iterar a través de los resultados y mostrar los nombres e imágenes
+                    data.results.forEach(pokemon => {
+                        const pokemonElement = createPokemonRow(pokemon);
+                        pokedexBody.appendChild(pokemonElement);
+                    });
+
+                    // Verificar si hay más resultados y continuar la paginación
+                    if (data.next) {
+                        fetchPokemonList(data.next);
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        // Función para crear una fila de Pokemon con nombre e imagen
+        function createPokemonRow(pokemon) {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${pokemon.name}</td>
+                <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${getIdFromUrl(pokemon.url)}.png" alt="${pokemon.name}"></td>
+            `;
+            return row;
+        }
+
+        // Función para extraer el ID del URL de la API
+        function getIdFromUrl(url) {
+            const parts = url.split('/');
+            return parts[parts.length - 2];
+        }
+
+        // Iniciar la carga de la lista de Pokémon desde la primera página
+        fetchPokemonList('https://pokeapi.co/api/v2/pokemon/');
+    </script>
+</body>
+</html>
+
