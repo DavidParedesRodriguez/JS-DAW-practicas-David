@@ -18,7 +18,7 @@ const nombreAlumnos = modulosAlumnosDaw.keys();
 const numeroAlumnos = modulosAlumnosDaw.values();
 
 for (const modulo of abreviaturaModulos) {
-    console.log('La asignatura de '+modulo+' tiene '+numeroHorasModulos.next().value
+    document.write('La asignatura de '+modulo+' tiene '+numeroHorasModulos.next().value
     +' horas en total con '+modulosAlumnosDaw.get(modulo).length + ' alumnos matriculados, \nlos cuales son '
     +numeroAlumnos.next().value+'\n')
 }
