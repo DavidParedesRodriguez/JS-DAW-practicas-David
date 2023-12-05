@@ -21,7 +21,7 @@ console.log(primerElementoModulo2); // Resultado: "DAW"
 console.log(primerElementoModulo3); // Resultado: "DWS"
 console.log(primerElementoModulo4); // Resultado: "DIW"
 var nombreProfesor1 = modulo1[3];
-console.log(nombreProfesor1); // Resultado: "Toni"
+console.log(nombreProfesor1);
 var nombreProfesor2 = modulo2[3];
 console.log(nombreProfesor2);
 var nombreProfesor3 = modulo3[3];
