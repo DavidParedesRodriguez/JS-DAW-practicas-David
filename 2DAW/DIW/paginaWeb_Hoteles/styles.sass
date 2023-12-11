@@ -1,0 +1,85 @@
+// Variables globales
+$primary-color: #4CAF50 !default
+$secondary-color: #333 !default
+$hover-color: #45a049 !default
+
+// Lista de colores
+$color-list: #3498db, #e74c3c, #2ecc71, #f39c12, #9b59b6
+
+// Placeholder para estilos comunes
+%common-styles
+    color: #fff
+    text-align: center
+    padding: 1em
+
+body, h1, h2, p
+    margin: 0
+    padding: 0
+
+body
+    display: flex
+    flex-direction: column
+    min-height: calc(100vh - 20px)
+    margin: 0
+
+header
+    @extend %common-styles
+    background-color: $secondary-color
+
+footer
+    @extend %common-styles
+    background-color: $secondary-color
+    margin-top: auto
+    width: 100%
+    box-sizing: border-box
+    position: relative
+    bottom: 0
+
+main
+    flex: 1
+    padding: calc(20px + 10px)
+    box-sizing: border-box
+
+section
+    margin-bottom: 20px
+
+.btn
+    @extend %common-styles
+    display: inline-block
+    padding: 10px 20px
+    font-size: calc(16px + 2px)
+    text-align: center
+    text-decoration: none
+    background-color: $primary-color
+    border: none
+    border-radius: 4px
+    cursor: pointer
+    transition: background-color 0.3s
+
+    &:hover
+        background-color: $hover-color
+
+// Nuevo selector utilizando el placeholder
+.common-element
+    @extend %common-styles
+    // Agrega estilos específicos para .common-element si es necesario
+
+// Funciones sobre la lista de colores
+$list-length: length($color-list)
+$first-color: nth($color-list, 1)
+$joined-colors: join($color-list, ', ')
+$appended-colors: append($color-list, #34495e)
+
+body::before 
+    content: "Número de colores en la lista: #{$list-length}"
+
+header::before 
+    content: "Primer color en la lista: #{$first-color}"
+
+
+footer::before 
+    content: "Colores unidos en una cadena: #{$joined-colors}"
+
+
+main::before 
+    content: "Lista de colores después de añadir uno más: #{$appended-colors}"
