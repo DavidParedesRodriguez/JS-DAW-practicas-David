@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unión de tipos y Type Alias</title>
+
+</head>
+<body>
+    
+    <script src="unionTipos.js"></script>
+    <script>
+        // Mostrar los valores del array con document.write
+document.write(`
+  <p><strong>Profesor:</strong> ${datosCurso[0]}</p>
+  <p><strong>Alumno:</strong> ${datosCurso[1]}</p>
+  <p><strong>Edad:</strong> ${datosCurso[2]}</p>
+  <p><strong>País:</strong> ${datosCurso[3]}</p>
+  <p><strong>Fecha de Nacimiento:</strong> ${datosCurso[4]}</p>
+  <p><strong>Tiene Mascota:</strong> ${datosCurso[5]}</p>
+`);
+
+document.write('<br>');
+document.write('<p>DATOS CURSO DAM:</p>');
+document.write('<br>');
+//mostrar los datos de cursoDAM
+document.write(`
+  <p><strong>Profesor:</strong> ${datosCursoDAM[0]}</p>
+  <p><strong>Alumno:</strong> ${datosCursoDAM[1]}</p>
+  <p><strong>Edad:</strong> ${datosCursoDAM[2]}</p>
+  <p><strong>País:</strong> ${datosCursoDAM[3]}</p>
+  <p><strong>Fecha de Nacimiento:</strong> ${datosCursoDAM[4]}</p>
+  <p><strong>Tiene Mascota:</strong> ${datosCursoDAM[5]}</p>
+`);
+
+// Mostrar hobbies
+document.write(`<br>`);
+document.write(`<p>Hobbies</p>`);
+document.write(`<br>`);
+document.write(`<p>${hobby1}: ${esHobbyDeMayorPrioridad(hobby1)}</p>`);
+document.write(`<p>${hobby2}: ${esHobbyDeMayorPrioridad(hobby2)}</p>`);
+document.write(`<p>${hobby3}: ${esHobbyDeMayorPrioridad(hobby3)}</p>`);
+document.write(`<p>${hobby4}: ${esHobbyDeMayorPrioridad(hobby4)}</p>`);
+document.write(`<p>${hobby5}: ${esHobbyDeMayorPrioridad(hobby5)}</p>`);
+    </script>
+
+</body>
+</html>
