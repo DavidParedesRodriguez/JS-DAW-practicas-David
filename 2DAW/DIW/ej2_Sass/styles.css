@@ -1,0 +1,47 @@
+@media only screen and (min-width: 100px) {
+  footer {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 800px) {
+  footer {
+    background-color: orange;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  footer {
+    background-color: green;
+  }
+}
+
+h1 {
+  background-color: #d12525;
+}
+
+h2 {
+  background-color: #bb2121;
+}
+
+h3 {
+  background-color: #a51d1d;
+}
+
+h4 {
+  background-color: #901919;
+}
+
+h1 {
+  color: #f1a1a1;
+}
+
+h2 {
+  color: #f8cdcd;
+}
+
+h3 {
+  color: #fefafa;
+}
+
+h4 {
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
