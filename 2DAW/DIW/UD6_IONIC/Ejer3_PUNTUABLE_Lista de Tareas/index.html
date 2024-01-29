@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo!</title>
+    <meta name="viewport" content="width=device-width, initialscale=1.0, minimum-scale=1.0, maximum-scale=1.0, userscalable=no">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.11.0/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@4.11.0/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.11.0/css/ionic.bundle.css" />
+    <script src="cordova.js"></script>
+    <script src="todo.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="primary">
+                <ion-title>ToDo!</ion-title>
+                <ion-buttons slot="primary">
+                    <ion-button onclick="deleteItem()" color="danger">
+                        <ion-icon slot="icon-only" name="trash"></ion-icon>
+                    </ion-button>
+                    <ion-button onclick="toggleReorder()">
+                        <ion-icon slot="icon-only" name="reorder"></ion-icon>
+                    </ion-button>
+                    <ion-button onclick="addEditItem()">
+                        <ion-icon slot="icon-only" name="add"></ion-icon>
+                    </ion-button>
+                </ion-buttons>
+            </ion-toolbar>
+        </ion-header>
+
+        <ion-content>
+            <ion-tabs>
+                <ion-tab tab="home">
+                    <ion-list lines="full">
+                        <ion-reorder-group></ion-reorder-group>
+                    </ion-list>
+                </ion-tab>
+                <ion-tab tab="school">
+                    <ion-list lines="full">
+                        <ion-reorder-group></ion-reorder-group>
+                    </ion-list>
+                </ion-tab>
+                <ion-tab-bar slot="bottom" color="primary">
+                    <ion-tab-button tab="home"><ion-icon name="home"></ion-icon></ion-tab-button>
+                    <ion-tab-button tab="school"><ion-icon name="school"></ion-icon></ion-tab-button>
+                </ion-tab-bar>
+            </ion-tabs>
+        </ion-content>
+    </ion-app>
+</body>
+
+</html>
